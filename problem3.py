@@ -11,5 +11,6 @@ elif operation=="-":
 elif operation=="/":
     result=a/b
 else:
-    "You entered the Wrong Operator"
+    result="Wrong Operator"
+
 print(f"{result}")
